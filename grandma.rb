@@ -16,9 +16,16 @@ def  speak_to_grandma(phrase)
     return "I LOVE YOU TOO PUMPKIN!"
     elsif phrase != phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
+<<<<<<< HEAD
     elsif phrase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
   elsif phrase == "WHAT?"
     return "NO, NOT SINCE 1938!"
+=======
+    elsif phrase == "I love you grandma"
+    return "NO, NOT SINCE 1938"
+  elsif phrase == "I LOVE YOU GRANDMA!"
+    return"I lOVE YOU TOO PUMPKIN!"
+>>>>>>> c9dbc3b6c1112063d2f6197a6e7c4126f4ca7093
   end
 end
